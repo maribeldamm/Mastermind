@@ -1,0 +1,71 @@
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\bin\Debug\Mastermind.exe.config
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\bin\Debug\Mastermind.exe
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\bin\Debug\Mastermind.pdb
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeBreaker\CheckCodeBreaker.g.cs
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerItem.g.cs
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerLine.g.cs
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeMaker\CodeMaker.g.cs
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\MainWindow.g.cs
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\App.g.cs
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind_MarkupCompile.cache
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind_MarkupCompile.lref
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeBreaker\CheckCodeBreaker.baml
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerItem.baml
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerLine.baml
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\CodeMaker\CodeMaker.baml
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\MainWindow.baml
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind.g.resources
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind.Properties.Resources.resources
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.GenerateResource.cache
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.CoreCompileInputs.cache
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind.exe
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind.pdb
+C:\Users\maribel.damm\OneDrive - Xylem, Inc\Dokumenter\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.AssemblyReference.cache
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.AssemblyReference.cache
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.SuggestedBindingRedirects.cache
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeBreaker\CheckCodeBreaker.g.cs
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerItem.g.cs
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerLine.g.cs
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeMaker\CodeMaker.g.cs
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\MainWindow.g.cs
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\App.g.cs
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind_MarkupCompile.cache
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind_MarkupCompile.lref
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.exe
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.pdb
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\bin\Debug\Mastermind.exe.config
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\bin\Debug\Mastermind.exe
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\bin\Debug\Mastermind.pdb
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeBreaker\CheckCodeBreaker.baml
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerItem.baml
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerLine.baml
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\CodeMaker\CodeMaker.baml
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\MainWindow.baml
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.g.resources
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.Properties.Resources.resources
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.GenerateResource.cache
+C:\Users\45281\OneDrive\Documents\Code Visual Studio\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.CoreCompileInputs.cache
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\bin\Debug\Mastermind.exe.config
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\bin\Debug\Mastermind.exe
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\bin\Debug\Mastermind.pdb
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.AssemblyReference.cache
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.SuggestedBindingRedirects.cache
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeBreaker\CheckCodeBreaker.g.cs
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerItem.g.cs
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerLine.g.cs
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeMaker\CodeMaker.g.cs
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\MainWindow.g.cs
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\App.g.cs
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind_MarkupCompile.cache
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind_MarkupCompile.lref
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeBreaker\CheckCodeBreaker.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerItem.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeBreaker\CodeBreakerLine.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\CodeMaker\CodeMaker.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\MainWindow.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.g.resources
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.Properties.Resources.resources
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.GenerateResource.cache
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.CoreCompileInputs.cache
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.exe
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.pdb

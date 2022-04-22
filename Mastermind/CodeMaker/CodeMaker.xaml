@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Mastermind.CodeMaker.CodeMaker"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mastermind.Common"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="450">
+    <Grid x:Name ="ColorsGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition  Width="75"/>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition  Width="75"/>
+        </Grid.ColumnDefinitions>
+        <Ellipse x:Name="pos1" Grid.Column="0" Fill="#FFF4F4F5" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" />
+        <Ellipse x:Name="pos2" Grid.Column="1" Fill="#FFF4F4F5" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40"/>
+        <Ellipse x:Name="pos3" Grid.Column="2" Fill="#FFF4F4F5"  Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" />
+        <Ellipse x:Name="pos4"  Grid.Column="3" Fill="#FFF4F4F5" Height="40"  Stroke="Black" VerticalAlignment="Top" Width="40"/>
+
+    </Grid>
+</UserControl>

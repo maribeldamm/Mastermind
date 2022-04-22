@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4556b887-e414-4373-bfc0-314230eeea96": {
+      "ProjectGuid": "4556b887-e414-4373-bfc0-314230eeea96",
+      "DisplayName": "Mastermind",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

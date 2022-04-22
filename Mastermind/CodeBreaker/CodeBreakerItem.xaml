@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Mastermind.CodeBreaker.CodeBreakerItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mastermind.Common"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="75">
+    <Grid x:Name ="ColorsGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="5" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Ellipse x:Name="CodePeg" Grid.Row="0" Grid.Column="0" Fill="#FFF4F4F5" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" MouseDown="CodePeg_MouseDown"/>
+        <ComboBox x:Name="ColorsCbx" Grid.Row="2" SelectionChanged="ColorsCbx_SelectionChanged" Width="70" Height="25" Visibility="Collapsed" ></ComboBox>
+    </Grid>
+</UserControl>
