@@ -69,3 +69,4 @@ C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Masterm
 C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.csproj.CoreCompileInputs.cache
 C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.exe
 C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.pdb
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Resources\PlayBtn.baml

@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Images\as Ico\mad 128x128.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -97,6 +100,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Resources\PlayBtn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -124,6 +131,35 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="mad.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\as Ico\mad 128x128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\as png\mad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\as png\PLAYbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\as png\playBtndown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PLAYbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="playBtndown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CodeBreaker\okBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CodeBreaker\okBtnDown.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

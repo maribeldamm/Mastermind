@@ -5,6 +5,11 @@
       "ProjectGuid": "4556b887-e414-4373-bfc0-314230eeea96",
       "DisplayName": "Mastermind",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

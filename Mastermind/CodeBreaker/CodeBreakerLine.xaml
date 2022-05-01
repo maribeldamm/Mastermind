@@ -23,7 +23,20 @@
         <StackPanel x:Name="Pos3Stck" Grid.Column="2"/>
         <StackPanel x:Name="Pos4Stck" Grid.Column="3"/>
         <StackPanel x:Name="CheckCodeStck" Grid.Column="4"></StackPanel>
-        <Button x:Name="okBtn"  Grid.Column="5" Content="OK" Width="50" Height="25" Click="okBtn_Click" ></Button>
+        <Button x:Name="okBtn"  Grid.Column="5"  Width="50" Height="25" Click="okBtn_Click" Background="#FFFF3F3F" >
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Image Name="okBtnImage" Source="/CodeBreaker/okBtn.png" />
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseDirectlyOver" Value="true">
+                            <Setter TargetName="okBtnImage"  
+                            Property="Source"  
+                            Value="/CodeBreaker/okBtnDown.png" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
 
     </Grid>
 </UserControl>
