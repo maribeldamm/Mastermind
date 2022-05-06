@@ -70,3 +70,6 @@ C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Masterm
 C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.exe
 C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Mastermind.pdb
 C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Resources\PlayBtn.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Resources\Templates.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\Templates.baml
+C:\Users\45281\OneDrive\Documents\GitHub\Mastermind\Mastermind\obj\Debug\App.baml

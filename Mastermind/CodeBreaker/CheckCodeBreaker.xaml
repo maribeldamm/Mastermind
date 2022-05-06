@@ -6,21 +6,31 @@
              xmlns:local="clr-namespace:Mastermind.Common"
              mc:Ignorable="d" 
              d:DesignHeight="50" d:DesignWidth="40">
-    <Border BorderThickness="2" BorderBrush="Black">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition />
+    <Border BorderThickness="2" BorderBrush="Black" CornerRadius="2" >
+
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF1F7AAE" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5"/>
+                <RowDefinition />
             <RowDefinition  Height="5"/>
             <RowDefinition />
-        </Grid.RowDefinitions>
+                <RowDefinition  Height="5"/>
+            </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Ellipse x:Name="Key1" Grid.Row="0" Grid.Column="0" Fill="#FFF4F4F5" Height="15" Stroke="Black" VerticalAlignment="Top" Width="15" />
-        <Ellipse x:Name="Key2" Grid.Row="0" Grid.Column="1" Fill="#FFF4F4F5" Height="15" Stroke="Black" VerticalAlignment="Top" Width="15"/>
-        <Ellipse x:Name="Key3" Grid.Row="2" Grid.Column="0" Fill="#FFF4F4F5" Height="15" Stroke="Black" VerticalAlignment="Top" Width="15" />
-        <Ellipse x:Name="Key4" Grid.Row="2" Grid.Column="1" Fill="#FFF4F4F5" Height="15"  Stroke="Black" VerticalAlignment="Top" Width="15"/>
+        <Ellipse x:Name="Key1" Grid.Row="1" Grid.Column="0" Fill="#FFF4F4F5" Height="15" Stroke="Black" VerticalAlignment="Top" Width="15" />
+        <Ellipse x:Name="Key2" Grid.Row="1" Grid.Column="1" Fill="#FFF4F4F5" Height="15" Stroke="Black" VerticalAlignment="Top" Width="15"/>
+        <Ellipse x:Name="Key3" Grid.Row="3" Grid.Column="0" Fill="#FFF4F4F5" Height="15" Stroke="Black" VerticalAlignment="Top" Width="15" />
+        <Ellipse x:Name="Key4" Grid.Row="3" Grid.Column="1" Fill="#FFF4F4F5" Height="15"  Stroke="Black" VerticalAlignment="Top" Width="15"/>
     </Grid>
     </Border>
 </UserControl>

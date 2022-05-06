@@ -8,15 +8,17 @@
              
     d:DesignHeight="100" d:DesignWidth="650">
     <Grid x:Name ="ColorsGrid">
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="75"/>
-            <ColumnDefinition Width="75"/>
-            <ColumnDefinition Width="75"/>
-            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="90"/>
             <ColumnDefinition Width="50"/>
             <ColumnDefinition Width="110"/>
-            
         </Grid.ColumnDefinitions>
         <StackPanel x:Name="Pos1Stck" Grid.Column="0"/>
         <StackPanel x:Name="Pos2Stck" Grid.Column="1"/>

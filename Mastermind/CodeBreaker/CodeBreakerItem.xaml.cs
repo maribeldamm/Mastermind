@@ -25,14 +25,23 @@ namespace Mastermind.CodeBreaker
             InitializeComponent();
 
             PopulateCbBox();
+            ColorsCbx.Visibility = Visibility.Collapsed;
         }
 
 
         private void CodePeg_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            //If a item has been selected, it shows/changes the color
-            ColorsCbx.SelectedItem =((ColorsCbx.SelectedItem !=null)&&ColorsCbx.HasItems && (ColorsCbx.SelectedIndex > -1))?ColorsCbx.Items[ColorsCbx.SelectedIndex]: ColorsCbx.Items[0];
-            ColorsCbx.Visibility = Visibility.Visible;
+            try
+            {
+                ColorsCbx.Visibility = Visibility.Visible;
+                //If a item has been selected, it shows/changes the color
+                ColorsCbx.SelectedItem = ((ColorsCbx.SelectedItem != null) && ColorsCbx.HasItems && (ColorsCbx.SelectedIndex > -1)) ? ColorsCbx.Items[ColorsCbx.SelectedIndex] : ColorsCbx.Items[0];
+                
+            }
+            catch (Exception ex)
+            {
+                string checkError = ex.Message;
+            }
         }
 
 
@@ -75,8 +84,16 @@ namespace Mastermind.CodeBreaker
                 colorSelected = (Brush)((ComboBoxItem)ColorsCbx.SelectedItem).Tag;
                 CodePeg.Fill = colorSelected;
             }
-            ColorsCbx.Visibility = Visibility.Collapsed;
+            //ColorsCbx.Visibility = Visibility.Collapsed;
 
         }
+
+       
+        private void ColorsCbx_MouseEnter(object sender, MouseEventArgs e)
+        {
+            ColorsCbx.Visibility = Visibility.Collapsed;
+        }
+
+        
     }
 }

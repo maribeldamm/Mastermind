@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("codebreaker/okbtndown.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("tryagain.png")]
 
 

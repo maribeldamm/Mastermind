@@ -66,10 +66,13 @@ namespace Mastermind
             //Reset attempts counter
             userAttempts = 0;
             //Remove Users result
-            Expand.Visibility = Visibility.Visible;
+            ShowCode.Visibility = Visibility.Visible;
             TestResultlb.Visibility = Visibility.Collapsed;
             TestResultlb.Content = "";
 
+            //Show Info
+            Information.Visibility = Visibility.Visible;
+            TryagainBtn.Visibility = Visibility.Visible;
             //Remove the old code, if it exists
             CodeToBreakStck.Children.Clear();
             CodeToBreakStck.Visibility = Visibility.Collapsed;
@@ -89,14 +92,19 @@ namespace Mastermind
             AddLine();
         }
 
-       
 
         private void Expand_Click(object sender, RoutedEventArgs e)
         {
-            CodeToBreakStck.Visibility = CodeToBreakStck.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;
+            ShowCode.Visibility = ShowCode.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;
+            HideCode.Visibility = HideCode.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;
+            CodeToBreakStck.Visibility = ShowCode.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;
 
-            Expand.Content = CodeToBreakStck.Visibility == Visibility.Visible ? "Hide code to break" : "Show code to break";
-            
+        }
+
+       
+        private void TryagainBtn_Click(object sender, RoutedEventArgs e)
+        {
+            PlayBtn_Click(null, null);
         }
     }
 }

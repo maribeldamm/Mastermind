@@ -15,7 +15,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Ellipse x:Name="CodePeg" Grid.Row="0" Grid.Column="0" Fill="#FFF4F4F5" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" MouseDown="CodePeg_MouseDown"/>
-        <ComboBox x:Name="ColorsCbx" Grid.Row="2" SelectionChanged="ColorsCbx_SelectionChanged" Width="70" Height="25" Visibility="Collapsed" ></ComboBox>
+        <Ellipse x:Name="CodePeg" Grid.Row="0" Grid.Column="0" Fill="#FFF4F4F5" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40"  MouseDown="CodePeg_MouseDown" />
+        <ComboBox x:Name="ColorsCbx" Grid.Row="2" SelectionChanged="ColorsCbx_SelectionChanged" Width="80" Height="25" Visibility="Visible"  ></ComboBox>
     </Grid>
 </UserControl>

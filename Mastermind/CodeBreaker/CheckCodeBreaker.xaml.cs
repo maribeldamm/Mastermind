@@ -99,7 +99,7 @@ namespace Mastermind.CodeBreaker
 
                         //Get the time & indexes of the same color
                         var codeIndexes = codePegs
-                        .Select((v, indx) => new { Index = indx, Value = v })
+                        .Select((cl, indx) => new { Index = indx, Value = cl })
                         .Where(x => (x.Value as SolidColorBrush).Color == (userColors[i] as SolidColorBrush).Color)
                         .Select(x => x.Index)
                         .ToList();

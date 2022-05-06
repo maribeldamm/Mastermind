@@ -5,34 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mastermind"
         mc:Ignorable="d"
-        Title="Master Mind" MinHeight="300" Width="800" >
+        Title="Master Mind" MinHeight="700" Width="800" >
     <Grid Margin="0,0,0,7">
         <Grid.RowDefinitions>
             <RowDefinition MaxHeight="50" />
             <RowDefinition Height="50"/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-
-        <Label x:Name="TestResultlb" Grid.Row="0"  Content="Success" FontSize="24" Visibility="Collapsed" />
-        <StackPanel Orientation="Horizontal">
-            <StackPanel x:Name="CodeToBreakStck" Grid.Row="1"/>
-            <Button x:Name="Expand" Content="Show code to break"  Visibility="Collapsed" Click="Expand_Click" Width="110"></Button>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="TestResultlb" Grid.Row="0" Grid.Column="1"  Content="Success" FontSize="24" Visibility="Collapsed" />
+        <StackPanel Orientation="Horizontal" Grid.Column="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="355"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="CodeToBreakStck" Grid.Column="0"/>
+                <Button x:Name="ShowCode" Grid.Column="1" Visibility="Collapsed" Click="Expand_Click" Width="110" Template="{StaticResource ShowCodeBreakerButton}"></Button>
+                <Button x:Name="HideCode" Grid.Column="1"  Visibility="Collapsed" Click="Expand_Click" Width="110" Template="{StaticResource HideBreakerButton}"></Button>
+            </Grid>
+            
         </StackPanel>
-        <StackPanel x:Name="CodePegsLinesStck" Grid.Row="2"/>
-        <Button x:Name="PlayBtn"  Grid.Row="2" Click="PlayBtn_Click"  >
+        <StackPanel x:Name="CodePegsLinesStck" Grid.Row="2" Grid.Column="0" Grid.RowSpan="3"/>
+        <StackPanel x:Name="Information" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Visibility="Collapsed">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="190"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Ellipse Grid.Column="1" Grid.Row="0" Fill="Orange" Stroke="Black" Width="20" Height="20"></Ellipse>
+                <Label Grid.Column="2" Grid.Row="0" Content="Right color and right position"/>
+                <Ellipse Grid.Column="1" Grid.Row="1" Fill="White" Stroke="Black"  Width="20" Height="20"/>
+                <Label Grid.Column="2" Grid.Row="1" Content="Right color and wrong position"/>
+                <Ellipse Grid.Column="1" Grid.Row="2" Fill="DarkGray" Stroke="Black" Width="20" Height="20"></Ellipse>
+                <Label Grid.Column="2" Grid.Row="2" Content="Right color and wrong position"/>
+            </Grid>
+        </StackPanel>
+        <Button x:Name="TryagainBtn" Grid.Column="1" Grid.Row="3" Template="{StaticResource TryAgainButton }" Width="100" Click="TryagainBtn_Click" Visibility="Collapsed"></Button>
+        <Button x:Name="PlayBtn"  Grid.Row="2" Grid.ColumnSpan="2" Click="PlayBtn_Click" Template="{StaticResource PlayButton}" />
 
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Image Name="playBtnImage" Source="/PLAYbtn.png" />
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseDirectlyOver" Value="true">
-                            <Setter TargetName="playBtnImage"  
-                            Property="Source"  
-                            Value="/playBtndown.png" />
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
     </Grid>
 </Window>

@@ -8,10 +8,10 @@
              d:DesignHeight="100" d:DesignWidth="450">
     <Grid x:Name ="ColorsGrid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="75"/>
-            <ColumnDefinition  Width="75"/>
-            <ColumnDefinition Width="75"/>
-            <ColumnDefinition  Width="75"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition  Width="90"/>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition  Width="90"/>
         </Grid.ColumnDefinitions>
         <Ellipse x:Name="pos1" Grid.Column="0" Fill="#FFF4F4F5" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" />
         <Ellipse x:Name="pos2" Grid.Column="1" Fill="#FFF4F4F5" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40"/>

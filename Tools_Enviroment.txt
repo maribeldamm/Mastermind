@@ -1,0 +1,4 @@
+1) Visual Studio 2022
+2) .NET 4.8 Framework 
+3) WPF
+¤) Windows 10/11

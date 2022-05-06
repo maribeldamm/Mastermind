@@ -100,7 +100,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Resources\Templates.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Resources\PlayBtn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Templates.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -160,6 +168,36 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="CodeBreaker\okBtnDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ShowCodeToBreakBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\ShowCodeToBreakBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\okBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\okBtnDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\as png\ShowCodeToBreakBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\as png\okBtnDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="okBtnDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CodeToBreakBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="HideCodeToBreakBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TryAgain.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
